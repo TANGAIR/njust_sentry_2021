@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="1000" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="localhost" TargetDevice="STM32F427II" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ScriptFile Name="unspecified" />
+            <ElfFile Name="D:\PROJECT\RM-STM32f427\2021Sentry-2021\2021ÉÚ±øÉÏÖ÷°å³ÌÐòU(21)-\USER\Objects\Sentry2021_THJ.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="200000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="pitch" Address="0x20000180" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="2253" YMaxSampled="2660" YAvgSampled="2546" Offset="4" ShowInGraph="1" ACCoupling="0" YOffset="30" IsAutoConfig="0" YResolution="500" MaxValue="4000" File="..\HARDWORK\PTZ.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Real_MechanicalAngle" Address="0x200096AA" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="2259" YMaxSampled="2641" YAvgSampled="2541" Offset="8" ShowInGraph="1" ACCoupling="0" YOffset="30" IsAutoConfig="0" YResolution="500" MaxValue="4000" File="..\HARDWORK\CAN.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="PIDout" Address="0x200097C4" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="128" GraphColorBlue="64" YMinSampled="-17" YMaxSampled="20" YAvgSampled="1" Offset="10" ShowInGraph="1" ACCoupling="0" YOffset="400" IsAutoConfig="0" YResolution="20" MaxValue="100" File="..\HARDWORK\PID.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Real_Speed" Address="0x200096A8" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="255" YMinSampled="-15" YMaxSampled="24" YAvgSampled="0" Offset="14" ShowInGraph="1" ACCoupling="0" YOffset="400" IsAutoConfig="0" YResolution="20" MaxValue="147" File="..\HARDWORK\CAN.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Target_Speed" Address="0x200096AE" Type="short" TypeID="11" Size="2" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="-8260" YMaxSampled="12260" YAvgSampled="1431" Offset="16" ShowInGraph="1" ACCoupling="0" YOffset="170" IsAutoConfig="1" YResolution="20000" MaxValue="40000" File="..\HARDWORK\CAN.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Pitch_Angle" Address="0x200095D0" Type="float" TypeID="1" Size="4" GraphColorRed="255" GraphColorGreen="0" GraphColorBlue="0" YMinSampled="-107" YMaxSampled="76" YAvgSampled="9" Offset="18" ShowInGraph="1" ACCoupling="0" YOffset="340" IsAutoConfig="1" YResolution="100" MaxValue="340" File="..\HARDWORK\USART.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
